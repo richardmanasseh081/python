@@ -57,7 +57,7 @@ export default function Checkout() {
           onClick={payWithPaystack}
           className="bg-green-600 text-white w-full py-3 rounded text-lg"
         >
-          Pay ₦{total.toLocaleString()}
+          Pay ${total.toLocaleString()}
         </button>
       </div>
     </div>
